@@ -1,78 +1,3 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="">
-	<meta name="description" content="">
-
-	<title>Nossa Beleza</title>
-<!--
-Snapshot Template
-http://www.templatemo.com/tm-493-snapshot
-
-Zoom Slider
-https://vegas.jaysalvat.com/
-
-Caption Hover Effects
-http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
--->
-
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link rel="stylesheet" href="css/animate.min.css">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/component.css">
-	
-  <link rel="stylesheet" href="css/owl.theme.css">
-	<link rel="stylesheet" href="css/owl.carousel.css">
-	<link rel="stylesheet" href="css/vegas.min.css">
-	<link rel="stylesheet" href="css/style.css">
-
-  <!-- Bootstrap Icons -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-
-	<!-- Google web font  -->
-	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,300' rel='stylesheet' type='text/css'>
-	
-</head>
-<body id="top" data-spy="scroll" data-offset="50" data-target=".navbar-collapse">
-
-
-<!-- Preloader section -->
-
-<div class="preloader">
-     <div class="sk-spinner sk-spinner-pulse"></div>
-</div>
-
-
-<!-- Navigation section  -->
-
-  <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
-
-      <div class="navbar-header">
-        <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-          <span class="icon icon-bar"></span>
-          <span class="icon icon-bar"></span>
-          <span class="icon icon-bar"></span>
-        </button>
-        <a href="#top" class="navbar-brand smoothScroll">Nossa Beleza</a>
-      </div>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#top" class="smoothScroll"><span>Home</span></a></li>
-            <li><a href="#about" class="smoothScroll"><span>Sobre nós</span></a></li>
-            <li><a href="#services" class="smoothScroll"><span>Serviços</span></a></li>
-            <li><a href="#gallery" class="smoothScroll"><span>Galeria</span></a></li>
-            <li><a href="#contact" class="smoothScroll"><span>Contato</span></a></li>
-            <li><a href="#" class="smoothScroll"><i class="bi bi-person-circle" id="login-icon"></i></a></li>
-          </ul>
-       </div>
-       
-    </div>
-  </div>
 
 
 <!-- Home section -->
@@ -133,7 +58,7 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
         <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.4s">
           <div class="team-thumb">
             <div class="image-holder">
-              <img src="images/team-img1.jpg" class="img-responsive img-circle" alt="Mary">
+              <img src="<?php echo PATH;?>/public/img/team-img1.jpg" class="img-responsive img-circle" alt="Mary">
             </div>
             <h2 class="heading">Esther Mattos, CEO</h2>
             <p class="description">Sempre disposta a dar o melhor!</p>
@@ -143,7 +68,7 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
         <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.6s">
           <div class="team-thumb">
             <div class="image-holder">
-              <img src="images/team-img2.jpg" class="img-responsive img-circle" alt="Jack">
+              <img src="<?php echo PATH;?>/public/img/team-img2.jpg" class="img-responsive img-circle" alt="Jack">
             </div>
             <h2 class="heading">Carlos Fox, cabelereiro</h2>
             <p class="description">Cuidando sempre dos nossos amores.</p>
@@ -153,7 +78,7 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
         <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
           <div class="team-thumb">
             <div class="image-holder">
-              <img src="images/team-img3.jpg" class="img-responsive img-circle" alt="Linda">
+              <img src="<?php echo PATH;?>/public/img/team-img3.jpg" class="img-responsive img-circle" alt="Linda">
             </div>
             <h2 class="heading">Linda, Gerente</h2>
             <p class="description">A minha felixidade é a sua.</p>
@@ -163,7 +88,7 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
         <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
           <div class="team-thumb">
             <div class="image-holder">
-              <img src="images/team-img4.jpg" class="img-responsive img-circle" alt="Sandy">
+              <img src="<?php echo PATH;?>/public/img/team-img4.jpg" class="img-responsive img-circle" alt="Sandy">
             </div>
             <h2 class="heading">Sandy, Director</h2>
             <p class="description">Curabitur vulputate euismod neque et tincidunt.</p>
@@ -173,7 +98,7 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
         <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
           <div class="team-thumb">
             <div class="image-holder">
-              <img src="images/team-img5.jpg" class="img-responsive img-circle"alt="Lukia">
+              <img src="<?php echo PATH;?>/public/img/team-img5.jpg" class="img-responsive img-circle"alt="Lukia">
             </div>
             <h2 class="heading">Lukia, Fashion</h2>
             <p class="description">Maecenas sed diam eget risus varius blandit sit.</p>
@@ -183,7 +108,7 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
         <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
           <div class="team-thumb">
             <div class="image-holder">
-              <img src="images/team-img6.jpg" class="img-responsive img-circle" alt="George">
+              <img src="<?php echo PATH;?>/public/img/team-img6.jpg" class="img-responsive img-circle" alt="George">
             </div>
             <h2 class="heading">George, Admin</h2>
             <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
@@ -193,7 +118,7 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
         <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
           <div class="team-thumb">
             <div class="image-holder">
-              <img src="images/team-img7.jpg" class="img-responsive img-circle" alt="Day">
+              <img src="<?php echo PATH;?>/public/img/team-img7.jpg" class="img-responsive img-circle" alt="Day">
             </div>
             <h2 class="heading">Day, Accountant</h2>
             <p class="description">Maecenas sed diam eget risus varius blandit sit.</p>
@@ -203,7 +128,7 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
         <div class="item col-md-4 col-sm-6 wow fadeInUp" data-wow-delay="0.8s">
           <div class="team-thumb">
             <div class="image-holder">
-              <img src="images/team-img8.jpg" class="img-responsive img-circle" alt="Lynn">
+              <img src="<?php echo PATH;?>/public/img/team-img8.jpg" class="img-responsive img-circle" alt="Lynn">
             </div>
             <h2 class="heading">Lynn, Marketing</h2>
             <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing.</p>
@@ -289,7 +214,7 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
       <ul class="grid cs-style-4">
         <li class="col-md-6 col-sm-6">
           <figure>
-            <div><img src="images/gallery-img1.jpg" alt="image 1"></div>
+            <div><img src="<?php echo PATH;?>/public/img/gallery-img1.jpg" alt="image 1"></div>
             <figcaption>
               <h1>Galeria</h1>
               <small>Sempre cuidando de você.</small>
@@ -300,7 +225,7 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
 
         <li class="col-md-6 col-sm-6">
           <figure>
-            <div><img src="images/gallery-img2.jpg" alt="image 2"></div>
+            <div><img src="<?php echo PATH;?>/public/img/gallery-img2.jpg" alt="image 2"></div>
             <figcaption>
               <h1>Galeria</h1>
               <small>Sempre cuidando de você.</small>
@@ -311,7 +236,7 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
 
         <li class="col-md-6 col-sm-6">
           <figure>
-            <div><img src="images/gallery-img3.jpg" alt="image 3"></div>
+            <div><img src="<?php echo PATH;?>/public/img/gallery-img3.jpg" alt="image 3"></div>
             <figcaption>
               <h1>Galeria</h1>
               <small>Sempre cuidando de você.</small>
@@ -322,7 +247,7 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
 
         <li class="col-md-6 col-sm-6">
           <figure>
-            <div><img src="images/gallery-img4.jpg" alt="image 4"></div>
+            <div><img src="<?php echo PATH;?>/public/img/gallery-img4.jpg" alt="image 4"></div>
             <figcaption>
               <h1>Galeria</h1>
               <small>Sempre cuidando de você.</small>
@@ -371,80 +296,3 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
   </div>
 </section>
 
-
-<!-- Footer section -->
-
-<footer>
-	<div class="container">
-    
-		<div class="row">
-
-      <div class="col-md-12 col-sm-12">
-        <div>
-          <p>Seções:</p>
-        </div>
-      </div>
-
-      <div class="col-md-12 col-sm-12">
-          <div class="info-footer">
-            <a class="ancoras-footer" href="#home">Home</a>
-            <a class="ancoras-footer" href="#about">Sobre nós</a>
-            <a class="ancoras-footer" href="#services">Serviços</a>
-            <a class="ancoras-footer" href="#gallery">Galeria</a>
-            <a class="ancoras-footer" href="#contavt">Contato</a>
-          </div>
-      </div>
-
-
-      <div class="col-md-12 col-sm-12">
-        <div>
-          <p>Formas de pagamento:</p>
-        </div>
-      </div>
-
-    <div class="col-md-12 col-sm-12">
-      <div class="info-footer">
-        <a class="ancoras-footer" >Mastercard</a>
-        <a class="ancoras-footer" >Visa</a>
-        <a class="ancoras-footer" >Pix</a>
-        <a class="ancoras-footer" >Boletos</a>
-      </div>
-  </div>
-
-
-			<div class="col-md-12 col-sm-12">
-            
-                <ul class="social-icon"> 
-                    <li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="0.2s"></a></li>
-                    <li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="0.4s"></a></li>
-                    <li><a href="#" class="fa fa-linkedin wow fadeInUp" data-wow-delay="0.6s"></a></li>
-                    <li><a href="#" class="fa fa-instagram wow fadeInUp" data-wow-delay="0.8s"></a></li>
-                    <li><a href="#" class="fa fa-google-plus wow fadeInUp" data-wow-delay="1.0s"></a></li>
-                </ul>
-
-				<p class="wow fadeInUp"  data-wow-delay="1s" >Copyright &copy; 2016 Snapshot Studio | 
-                Design: <a href="https://plus.google.com/+templatemo" title="free css templates" target="_blank">Templatemo</a></p>
-                
-			</div>
-			
-		</div>
-        
-	</div>
-</footer>
-
-<!-- Back top -->
-<a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
-
-<!-- Javascript  -->
-<script src="js/jquery.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/vegas.min.js"></script>
-<script src="js/modernizr.custom.js"></script>
-<script src="js/toucheffects.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/smoothscroll.js"></script>
-<script src="js/wow.min.js"></script>
-<script src="js/custom.js"></script>
-
-</body>
-</html>
