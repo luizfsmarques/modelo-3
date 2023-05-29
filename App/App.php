@@ -16,7 +16,7 @@ class App{
 
     public function __construct() // Constantes de todo o sistema
     {
-        define("APP_HOST", "http://". $_SERVER['HTTP_HOST'] . "/jc-contabilidade/sistema.jc-contabilidade.com");
+        define("APP_HOST", "http://". $_SERVER['HTTP_HOST'] . "/modelo-3");
         define("PATH", realpath("./"));
         define("DB_HOST", "localhost");
         define("DB_USER", "root");
@@ -82,13 +82,10 @@ class App{
         // {
         //     $site = new SiteController();
         //     $site->exibe();
-            
-        //     echo ' <br><br>aqui é no inicio do run <br><br>';
         // }
 
         if($this->controller)
         {
-            
             $this->controllerName = ucwords($this->controller) . "Controller";
             $this->controllerName =  preg_replace("/[^A-Za-z]/i",'',$this->controllerName);     
         }else
@@ -101,7 +98,7 @@ class App{
         if(!file_exists(PATH ."/App/Controllers/" . $this->controllerFile))
         {
             // throw new Exception("Página não encontrada!",404);
-            echo "Página não encontrada!";
+            echo "Página não encontrada!";  
         }
 
         $classe = 'App\\Controllers\\' . $this->controllerName;
@@ -124,7 +121,7 @@ class App{
         }else if($this->metodo && !method_exists($objeto, $this->metodo) )
         {
             // throw new Exception ("Erro na aplicação!",500);
-            echo "Erro na aplicação!";
+            echo "Erro na aplicação!"; 
         }
 
     }

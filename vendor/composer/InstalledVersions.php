@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '4f13d28dffad16670ecb8d7b8c12243b25064374',
+    'reference' => 'd8a3167d007ebeeb6940fc239394420fe48eba40',
     'name' => '__root__',
   ),
   'versions' => 
@@ -42,16 +42,16 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '4f13d28dffad16670ecb8d7b8c12243b25064374',
+      'reference' => 'd8a3167d007ebeeb6940fc239394420fe48eba40',
     ),
     'phpmailer/phpmailer' => 
     array (
-      'pretty_version' => 'v6.5.1',
-      'version' => '6.5.1.0',
+      'pretty_version' => 'v6.8.0',
+      'version' => '6.8.0.0',
       'aliases' => 
       array (
       ),
-      'reference' => 'dd803df5ad7492e1b40637f7ebd258fee5ca7355',
+      'reference' => 'df16b615e371d81fb79e506277faea67a1be18f1',
     ),
   ),
 );

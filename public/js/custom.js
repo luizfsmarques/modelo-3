@@ -1,5 +1,7 @@
 
- /* jQuery Pre loader
+// Neste arquivo temos o src para as fotos do banner --- slide-img1 ( só dá ctrl+d)
+
+ /* jQuery Pre loader 
   -----------------------------------------------*/
 $(window).load(function(){
     $('.preloader').fadeOut(1000); // set duration in brackets    
@@ -33,9 +35,9 @@ $(document).ready(function() {
   $(function() {
     $('body').vegas({
         slides: [
-            { src: 'images/slide-img1.jpg' },
-            { src: 'images/slide-img2.jpg' },
-            { src: 'images/slide-img3.jpg' }
+            { src: 'public/img/slide-img1.jpg' },
+            { src: 'public/img/slide-img2.jpg' },
+            { src: 'public/img/slide-img3.jpg' }
         ],
         timer: false,
         transition: [ 'zoomIn', ],

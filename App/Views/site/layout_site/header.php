@@ -63,7 +63,7 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
           <span class="icon icon-bar"></span>
           <span class="icon icon-bar"></span>
         </button>
-        <a href="#top" class="navbar-brand smoothScroll">Nossa Beleza</a>
+        <a href="<?php echo APP_HOST;?>" class="navbar-brand smoothScroll">Nossa Beleza</a>
       </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">

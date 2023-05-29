@@ -1,4 +1,4 @@
-<?php //Aqui tem codigo para produção
+<?php 
 
 namespace App\Controllers;
 
