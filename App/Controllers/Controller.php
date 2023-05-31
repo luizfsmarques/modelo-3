@@ -19,9 +19,14 @@ abstract class Controller
         
     }
 
-    public function render_layout_site($view,$style=null)
+    public function render_layout_site($view,$specific_style=null,$specific_js=null,$links_navbar=null)
     {
+        
+        $this->setViewVar('links_navbar',$links_navbar); //Adapta os links do navbar para cada view do site
+        $this->setViewVar('specific_style',$specific_style); //Chama um arquivo css específico para a view
+        $this->setViewVar('specific_js',$specific_js); //Chama um arquivo js específico para a view
 
+        
         $viewVar = $this->getViewVar();
 
         require_once PATH . "/App/Views/site/layout_site/header.php";

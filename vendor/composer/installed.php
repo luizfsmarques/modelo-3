@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'd8a3167d007ebeeb6940fc239394420fe48eba40',
+    'reference' => '5a34b4e5148f68c3536bc19c68183fbfa902b070',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,16 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'd8a3167d007ebeeb6940fc239394420fe48eba40',
-    ),
-    'phpmailer/phpmailer' => 
-    array (
-      'pretty_version' => 'v6.8.0',
-      'version' => '6.8.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'df16b615e371d81fb79e506277faea67a1be18f1',
+      'reference' => '5a34b4e5148f68c3536bc19c68183fbfa902b070',
     ),
   ),
 );

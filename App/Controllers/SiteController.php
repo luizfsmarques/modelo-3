@@ -1,13 +1,5 @@
 <?php
 
-
-// PAREI AQUI !!!! REINSTALAR O AUTOLOAD COM O COMPOSER...
-//POIS COPIEI E COLEI DA JC...
-//ENTÃO APAGAR TODO O VENDOR, JSON, ETC... E REINSTALAR TODAS AS DEPENDENCIAS DE NOVO!!!!
-//AUTOLOAD E PHPMAILER...
-//SEGUINDO AS ANOTAÇÕES DO DEVMEDIA
-
-
 namespace App\Controllers;
 
 use App\Controllers\Controller;
@@ -17,12 +9,20 @@ class SiteController extends Controller
 
     public function exibe()
     {
-        $this->render_layout_site('/site/site');
+        $links_navbar = array(
+            'href_home'=>'#top','href_about'=>'#about','href_services'=>'#services',
+            'href_gallery'=>'#gallery','href_contact'=>'#contact'
+        );
+        $this->render_layout_site('/site/site',null,null,$links_navbar);
     }   
 
     public function galeria()
-    {
-        echo 'estamos na galeria <br>';
+    {   
+        $links_navbar = array(
+            'href_home'=>APP_HOST,'href_about'=>APP_HOST.'/#about','href_services'=>APP_HOST.'/#services',
+            'href_gallery'=>APP_HOST.'/#gallery','href_contact'=>APP_HOST.'/#contact'
+        );
+        $this->render_layout_site('/site/galeria','/site/galeria','/site/galeria',$links_navbar);
     }
 
 }

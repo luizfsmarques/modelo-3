@@ -1,0 +1,79 @@
+/*
+
+Adaptações
+https://codigopratico.com
+
+Snapshot Template
+http://www.templatemo.com/tm-493-snapshot
+
+*/
+
+
+/*---------------------------------------
+    Complete galllery section              
+-----------------------------------------*/
+
+#complete-gallery {
+  padding-top: 90px;
+  padding-bottom: 120px;
+  position: relative;
+}
+
+#complete-gallery {
+  text-align: center;
+}
+
+#complete-gallery {
+    background: #ffffff;
+}
+  
+.box-imagem{
+    cursor: pointer;
+}
+
+.imagem figcaption{
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.imagem figcaption:hover{
+    opacity: .7;
+}
+
+.imagem figcaption p{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+
+    display:flex;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+
+
+  
+footer{
+    padding-top: 40px;
+}
+
+
+/* TENTANDO DEIXAR  A IMAGEM NA FRENTE E MAIOR */
+/* 
+POSSO QUANDO EU CLICAR NA IMAGEM QUE EU QUERO DEIXAR AS OUTRAS COM DISPLAY NONE, E ESSA FIXAR E CENTRALIZAR
+*/
+
+
+.teste-none{
+    display:none;
+}
+
+#teste-foto{
+    position: fixed;
+    left: 0px;
+    width:70%;
+    height: 70%;
+    z-index: 1000px;
+}

@@ -25,15 +25,26 @@ Caption Hover Effects
 http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
 -->
 
-	<link rel="stylesheet" href="./public/css/bootstrap.min.css">
-	<link rel="stylesheet" href="./public/css/animate.min.css">
-	<link rel="stylesheet" href="./public/css/font-awesome.min.css">
-  <link rel="stylesheet" href="./public/css/component.css">
+
+	<link rel="stylesheet" href="<?php echo APP_HOST;?>/public/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<?php echo APP_HOST;?>/public/css/animate.min.css">
+	<link rel="stylesheet" href="<?php echo APP_HOST;?>/public/css/font-awesome.min.css">
+  <link rel="stylesheet" href="<?php echo APP_HOST;?>/public/css/component.css">
 	
-  <link rel="stylesheet" href="./public/css/owl.theme.css">
-	<link rel="stylesheet" href="./public/css/owl.carousel.css">
-	<link rel="stylesheet" href="./public/css/vegas.min.css">
-	<link rel="stylesheet" href="./public/css/style.css">
+  <link rel="stylesheet" href="<?php echo APP_HOST;?>/public/css/owl.theme.css">
+	<link rel="stylesheet" href="<?php echo APP_HOST;?>/public/css/owl.carousel.css">
+	<link rel="stylesheet" href="<?php echo APP_HOST;?>/public/css/vegas.min.css">
+	<link rel="stylesheet" href="<?php echo APP_HOST;?>/public/css/style.css">
+
+  <?php
+  //Para caso a  view tenha um arquivo de estilo específico
+  if( !empty($viewVar['specific_style']) )
+  {
+     echo "<link rel='stylesheet' href='".APP_HOST."/public/css".$viewVar['specific_style'].".css'>";
+  }
+  ?>
+
+
 
   <!-- Bootstrap Icons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
@@ -67,11 +78,11 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
       </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#top" class="smoothScroll"><span>Home</span></a></li>
-            <li><a href="#about" class="smoothScroll"><span>Sobre nós</span></a></li>
-            <li><a href="#services" class="smoothScroll"><span>Serviços</span></a></li>
-            <li><a href="#gallery" class="smoothScroll"><span>Galeria</span></a></li>
-            <li><a href="#contact" class="smoothScroll"><span>Contato</span></a></li>
+            <li><a href="<?php echo $viewVar['links_navbar']['href_home'];?>" class="smoothScroll"><span>Home</span></a></li>
+            <li><a href="<?php echo $viewVar['links_navbar']['href_about'];?>" class="smoothScroll"><span>Sobre nós</span></a></li>
+            <li><a href="<?php echo $viewVar['links_navbar']['href_services'];?>" class="smoothScroll"><span>Serviços</span></a></li>
+            <li><a href="<?php echo $viewVar['links_navbar']['href_gallery'];?>" class="smoothScroll"><span>Galeria</span></a></li>
+            <li><a href="<?php echo $viewVar['links_navbar']['href_contact'];?>" class="smoothScroll"><span>Contato</span></a></li>
             <li><a href="#" class="smoothScroll"><i class="bi bi-person-circle" id="login-icon"></i></a></li>
           </ul>
        </div>

@@ -3,7 +3,7 @@
 
     RewriteEngine On
 
-    RewriteBase /jc-contabilidade/sistema.jc-contabilidade.com
+    RewriteBase /modelo-3
     # RewriteBase / #Esse aqui e para produção
 
     RewriteCond %{REQUEST_FILENAME} !-d

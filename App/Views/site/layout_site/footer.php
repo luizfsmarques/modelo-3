@@ -63,15 +63,22 @@
 <a href="#" class="go-top"><i class="fa fa-angle-up"></i></a>
 
 <!-- Javascript  -->
-<script src="./public/js/jquery.js"></script>
-<script src="./public/js/bootstrap.min.js"></script>
-<script src="./public/js/vegas.min.js"></script>
-<script src="./public/js/modernizr.custom.js"></script>
-<script src="./public/js/toucheffects.js"></script>
-<script src="./public/js/owl.carousel.min.js"></script>
-<script src="./public/js/smoothscroll.js"></script>
-<script src="./public/js/wow.min.js"></script>
-<script src="./public/js/custom.js"></script>
+<script src="<?php echo APP_HOST;?>/public/js/jquery.js"></script>
+<script src="<?php echo APP_HOST;?>/public/js/bootstrap.min.js"></script>
+<script src="<?php echo APP_HOST;?>/public/js/vegas.min.js"></script>
+<script src="<?php echo APP_HOST;?>/public/js/modernizr.custom.js"></script>
+<script src="<?php echo APP_HOST;?>/public/js/toucheffects.js"></script>
+<script src="<?php echo APP_HOST;?>/public/js/owl.carousel.min.js"></script>
+<script src="<?php echo APP_HOST;?>/public/js/smoothscroll.js"></script>
+<script src="<?php echo APP_HOST;?>/public/js/wow.min.js"></script>
+<script src="<?php echo APP_HOST;?>/public/js/custom.js"></script>
+<?php
+  //Para caso a  view tenha um arquivo javascript específico
+  if( !empty($viewVar['specific_js']) )
+  {
+     echo "<script src='".APP_HOST."/public/js".$viewVar['specific_js'].".js'></script>";
+  }
+?>
 
 </body>
 </html>
