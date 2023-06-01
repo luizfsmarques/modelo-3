@@ -2,26 +2,36 @@ console.log("jfb.asdjkfbljfbsdla oi");
 
 let imagens = document.querySelectorAll('.box-imagem');
 
-let teste = () => {
-    alert("Testando!");
-}
-
-let estiloImagem = (img) => {
-    img.style.width = '400px';
-    img.style.height = '400px';
+let teste = (param) => {
+    // alert("Testando!");
+    alert(param);
 
 }
 
 
-// Array.from(imagens).forEach((img) => {
-//     img.addEventListener('click', () => {
-//         img.style.position ='fixed';
-//         img.style.postion.left = '-1500px'
-//         img.style.margin = 'auto';
-//         img.style.width = '20%';
-//         img.style.height = '20%';
-//     });
-//   });
+
+Array.from(imagens).forEach((img) => {
+    img.addEventListener('click', (event) => {
+
+        if( event.target.nodeName === "P" )
+        {
+            console.log('paragrafo');
+            console.log( event.target.offsetParent.offsetParent.offsetParent.id);
+            console.log( '#'+event.target.offsetParent.offsetParent.offsetParent.id);
+
+
+        }else if( event.target.nodeName === "FIGCAPTION" ){
+
+            console.log('figcaption');
+            console.log( event.target.offsetParent.offsetParent.id);
+            console.log( '#'+event.target.offsetParent.offsetParent.id);
+
+        }
+
+        // console.log( typeof event.target.offsetParent.offsetParent.offsetParent.id);
+
+    });
+  });
 
 
 // Array.from(imagens).forEach( (img) => {
