@@ -53,59 +53,45 @@ http://www.templatemo.com/tm-493-snapshot
     text-align: center;
 }
 
-
-
 footer{
     padding-top: 40px;
 }
 
 
-
-/*  USADO PARA DAR DESTAQUE PARA A FOTO CLICADA*/
-
-#fechar-foto{
-   display: none;
+#fechar-foto, #fundo-escuro{
+    visibility: hidden;
 }
 
-/*
-#fechar-foto{
-    position: fixed;
+
+/* faz aparecer o fundo escuro */
+.aparecer-fundo-escuro{
+    visibility:visible;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color:black;
+    opacity:0.7;
+    width:100%;
+    height:100%;
+
+}
+
+/* faz aparecer o fechar foto */
+.aparecer-fechar-foto{
+    visibility:visible;
+    position:fixed;
     top:20px;
-    right: 20px;
+    right:20px;
     color:#ffffff;
-    font-size: 2.5rem;
+    font-size:2.5rem;
     cursor:pointer;
 }
 
-#fundo-escuro{
-    position: fixed;
-    top:0px;
-    left: 0px;
-    background-color: black;
-    opacity: 0.7;
-    width: 100%;
-    height: 100%;
-}
-
- #foto-1{
-    visibility: visible;
-    position: fixed;
-    top: 40px;
-    left: 22.5%;
+/* destacar a foto clicada */
+.destacar-foto{
+    position:fixed;
+    top:40px;
+    left:22.4%;
     width:55%;
-    height: 55%;
-    z-index: 1000px;
-} */
-
-
-/* .navbar{
-    visibility: hidden;
+    height:55%;
 }
-
-.box-imagem{
-    visibility: hidden;
-}
-
-.imagem figcaption p, .imagem figcaption{
-    visibility: hidden;
-} */

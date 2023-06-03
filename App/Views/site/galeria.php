@@ -17,7 +17,7 @@
       <ul class="grid ">
 
 
-        <li class="col-md-6 col-sm-6 box-imagem teste-none" id="foto-1">
+        <li class="col-md-6 col-sm-6 box-imagem " id="foto-1">
             <figure class="imagem">
                 <div><img src="<?php echo APP_HOST;?>/public/img/gallery-img1.jpg" alt="image 1"></div>
                 <figcaption>
@@ -26,7 +26,7 @@
             </figure>
         </li>
 
-        <li class="col-md-6 col-sm-6 box-imagem teste-none" id="foto-2">
+        <li class="col-md-6 col-sm-6 box-imagem " id="foto-2">
           <figure class="imagem">
             <div><img src="<?php echo APP_HOST;?>/public/img/gallery-img4.jpg" alt="image 4"></div>
             <figcaption>
@@ -35,7 +35,7 @@
           </figure>
         </li>
 
-        <li class="col-md-6 col-sm-6 box-imagem teste-none" id="foto-3">
+        <li class="col-md-6 col-sm-6 box-imagem " id="foto-3">
           <figure class="imagem">
             <div><img src="<?php echo APP_HOST;?>/public/img/gallery-img2.jpg" alt="image 2"></div>
             <figcaption>
@@ -45,7 +45,7 @@
         </li>
 
 
-        <li class="col-md-6 col-sm-6 box-imagem teste-none" id="foto-4">
+        <li class="col-md-6 col-sm-6 box-imagem " id="foto-4">
           <figure class="imagem">
             <div><img src="<?php echo APP_HOST;?>/public/img/gallery-img3.jpg" alt="image 3"></div>
             <figcaption>

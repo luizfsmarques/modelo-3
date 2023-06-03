@@ -58,7 +58,7 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
 
 <!-- Preloader section -->
 
-<div class="preloader">
+<div class="preloader" id="desativar-preload">
      <div class="sk-spinner sk-spinner-pulse"></div>
 </div>
 
