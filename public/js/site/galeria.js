@@ -4,11 +4,6 @@ let imagens = document.querySelectorAll('.box-imagem');
 let fundoEscuro = document.querySelector('#fundo-escuro');
 let fecharFoto = document.querySelector('#fechar-foto');
 
-let teste = (param) => {
-    // alert("Testando!");
-    alert(param);
-}
-
 let esconderElementos = () => {
     for(let i = 0; i<imagens.length; i++){
         imagens[i].style.visibility = 'hidden';

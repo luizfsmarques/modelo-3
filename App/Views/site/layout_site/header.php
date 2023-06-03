@@ -58,7 +58,7 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
 
 <!-- Preloader section -->
 
-<div class="preloader" id="desativar-preload">
+<div class="preloader">
      <div class="sk-spinner sk-spinner-pulse"></div>
 </div>
 
@@ -83,7 +83,7 @@ http://tympanus.net/codrops/2013/06/18/caption-hover-effects/
             <li><a href="<?php echo $viewVar['links_navbar']['href_services'];?>" class="smoothScroll"><span>Serviços</span></a></li>
             <li><a href="<?php echo $viewVar['links_navbar']['href_gallery'];?>" class="smoothScroll"><span>Galeria</span></a></li>
             <li><a href="<?php echo $viewVar['links_navbar']['href_contact'];?>" class="smoothScroll"><span>Contato</span></a></li>
-            <li><a href="#" class="smoothScroll"><i class="bi bi-person-circle" id="login-icon"></i></a></li>
+            <li><a href="<?php echo $viewVar['links_navbar']['href_login'];?>" class="smoothScroll"><i class="bi bi-person-circle" id="login-icon"></i></a></li>
           </ul>
        </div>
        

@@ -3,6 +3,7 @@
 namespace App;
 
 use App\Controllers\SiteController;
+use App\Controllers\LoginController;
 use Exception;
 
 class App{

@@ -26,7 +26,6 @@ abstract class Controller
         $this->setViewVar('specific_style',$specific_style); //Chama um arquivo css específico para a view
         $this->setViewVar('specific_js',$specific_js); //Chama um arquivo js específico para a view
 
-        
         $viewVar = $this->getViewVar();
 
         require_once PATH . "/App/Views/site/layout_site/header.php";

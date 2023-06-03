@@ -11,7 +11,7 @@ class SiteController extends Controller
     {
         $links_navbar = array(
             'href_home'=>'#top','href_about'=>'#about','href_services'=>'#services',
-            'href_gallery'=>'#gallery','href_contact'=>'#contact'
+            'href_gallery'=>'#gallery','href_contact'=>'#contact','href_login'=>APP_HOST.'/login'
         );
         $this->render_layout_site('/site/site',null,null,$links_navbar);
     }   
@@ -20,7 +20,7 @@ class SiteController extends Controller
     {   
         $links_navbar = array(
             'href_home'=>APP_HOST,'href_about'=>APP_HOST.'/#about','href_services'=>APP_HOST.'/#services',
-            'href_gallery'=>APP_HOST.'/#gallery','href_contact'=>APP_HOST.'/#contact'
+            'href_gallery'=>APP_HOST.'/#gallery','href_contact'=>APP_HOST.'/#contact','href_login'=>APP_HOST.'/login'
         );
         $this->render_layout_site('/site/galeria','/site/galeria','/site/galeria',$links_navbar);
     }
